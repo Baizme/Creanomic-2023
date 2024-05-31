@@ -1,0 +1,101 @@
+.box {
+  margin-top: 100px;
+  margin-bottom: 80px;
+  padding-top: 0;
+  background: rgba(255, 255, 255, 0.25);
+  /* box-shadow: 0 0px 20px 0 #40A74A; */
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  border-radius: 0px 0px 40px 0;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  height: max-content;
+}
+.jangkauan {
+  background-color: #923280;
+  width: max-content;
+  height: max-content;
+  padding: 15px;
+  margin-left: -12px;
+  border-radius: 0px 0 20px 0;
+}
+.keterangan {
+  margin-left: 50px;
+}
+.keterangan h2 {
+  font-size: 50px;
+  font-weight: bolder;
+}
+.keterangan p {
+  color: #ffffff;
+}
+.tombol {
+  margin-left: 50px;
+}
+.tombol .btn1 {
+  background-color: #40a74a;
+  padding: 10px;
+  text-decoration: none;
+  color: #000;
+  margin-bottom: 10px;
+  /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+  border: 2px solid rgba(255, 255, 255, 0.18);
+}
+.btn1:hover {
+  box-shadow: 0 0px 20px #40a74a;
+  border: 2px solid #fff;
+  color: #000;
+}
+.tombol .btn2 {
+  padding: 10px;
+  text-decoration: none;
+  margin-bottom: 10px;
+  border: 2px solid #40a74a;
+}
+.tombol .btn2 i {
+  font-size: 20px;
+}
+.btn2:hover {
+  box-shadow: 0 0px 20px 0 #40a74a;
+}
+.gambar img {
+  height: 400px;
+  margin-top: -300px;
+  margin-bottom: 20px;
+}
+@media (min-width: 992px) {
+  .nav-item .competition::after {
+    content: "";
+    display: block;
+    color: #000;
+    border-bottom: 3px solid #000;
+    margin-bottom: -3px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .judul h1 {
+    font-size: 40px;
+    margin-top: 70px;
+  }
+  .keterangan {
+    margin-left: 10px;
+  }
+  .tombol {
+    margin-left: 10px;
+  }
+  .gambar img {
+    height: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 0px) and (max-width: 360px) {
+  .keterangan h2 {
+    font-size: 30px;
+    font-weight: bolder;
+  }
+}
+@media (min-width: 0px) and (max-width: 420px) {
+  .jangkauan h5 {
+    font-size: initial;
+  }
+}
